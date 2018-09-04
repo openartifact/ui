@@ -1,0 +1,40 @@
+{
+  "name": "@openartifact/ui",
+  "description": "Artifact data web UI",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/openartifact/ui"
+  },
+  "dependencies": {
+    "history": "^4.7.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.0-next.a671462c",
+    "redux": "^4.0.0",
+    "redux-responsive": "^4.3.8",
+    "redux-thunk": "^2.3.0"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">0.25%",
+      "not op_mini all",
+      "ie 11"
+    ]
+  }
+}
