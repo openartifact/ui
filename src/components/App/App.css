@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -15,4 +20,63 @@
 
 .App-link {
   color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.artifactCardRow {
+  border-radius: 4px;
+  text-align: left;
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.artifactCard {
+  display: flex;
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.artifactCardIcon {
+  width: 36px;
+  height: 36px;
+}
+
+.spaceAround {
+  justify-content: space-around;
+}
+
+.inline {
+  display: inline;
+}
+
+.alignBottom {
+  margin-top: auto;
+}
+
+.statsSection {
+  padding-bottom: 4px;
+  height: 15%;
+  align-items: center;
+}
+
+.smallIcon {
+  width: 30px;
+  height: 30px;
 }

@@ -6,7 +6,7 @@ import createHistory from 'history/createBrowserHistory';
 import store from './common/store';
 import './index.css';
 import App from './components/App';
-import { unregister } from './common/serviceWorker';
+// import { unregister } from './common/serviceWorker';
 
 const history = createHistory();
 const rootElement = document.getElementById('root');
@@ -25,4 +25,4 @@ if (rootElement.hasChildNodes()) {
   hydrate(app, rootElement);
 }
 
-unregister();
+// unregister();
