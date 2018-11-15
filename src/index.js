@@ -3,7 +3,7 @@ import { hydrate, render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { Route, Router } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
-import store from './common/store';
+import store from './store';
 import './index.css';
 import App from './components/App';
 // import { unregister } from './common/serviceWorker';

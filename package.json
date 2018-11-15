@@ -1,5 +1,5 @@
 {
-  "name": "@openartifact/ui",
+  "name": "openartifact-web",
   "description": "Artifact data web UI",
   "version": "0.1.0",
   "private": true,
@@ -12,16 +12,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/openartifact/ui"
+    "url": "http://github.com/openartifact/web"
   },
   "dependencies": {
+    "components": "https://github.com/odota/components",
     "history": "^4.7.2",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-redux": "^5.0.7",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^5.1.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.0-next.a671462c",
-    "redux": "^4.0.0",
+    "react-scripts": "^2.1.1",
+    "redux": "^4.0.1",
     "redux-responsive": "^4.3.8",
     "redux-thunk": "^2.3.0"
   },

@@ -45,10 +45,10 @@ return (
   <div style={{ backgroundColor: GetColor(card) }} className="artifactCard">
     <div className="flexContainer">
       {card.ingame_image && card.ingame_image.default && <img className="smallIcon" src={card.ingame_image.default}></img>}
-      <div style={{ padding: '4px' }}>{card.card_name.english}</div>
+      <div className="headerText">{card.card_name.english}</div>
     </div>
     <div>
-    <img src={card.mini_image.default}></img>
+    <img className="cardImage" src={card.mini_image.default}></img>
     </div>
     <div className="flexContainer spaceAround alignBottom statsSection">
       <div className="flexContainer">

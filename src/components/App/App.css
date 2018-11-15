@@ -46,9 +46,9 @@
 
 .artifactCard {
   display: flex;
-  width: 300px;
-  height: 500px;
-  border-radius: 10px;
+  width: 180px;
+  height: 300px;
+  border-radius: 7px;
   border: 1px solid black;
   flex-direction: column;
 }
@@ -79,4 +79,14 @@
 .smallIcon {
   width: 30px;
   height: 30px;
+}
+
+.cardImage {
+  width: 160px;
+  height: 160px;
+}
+
+.headerText {
+  padding: 4px;
+  font-size: 18px;
 }
