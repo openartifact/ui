@@ -1,0 +1,3 @@
+[submodule "src/odota-web"]
+	path = src/odota-web
+	url = http://github.com/odota/web

@@ -15,16 +15,27 @@
     "url": "http://github.com/openartifact/web"
   },
   "dependencies": {
-    "components": "https://github.com/odota/components",
+    "abcolor": "^0.5.5",
+    "artifact-api": "^0.1.0",
+    "dotaconstants": "^6.7.0",
     "history": "^4.7.2",
+    "material-ui": "^0.20.2",
     "react": "^16.6.3",
+    "react-content-loader": "^3.2.0",
     "react-dom": "^16.6.3",
+    "react-helmet": "^5.2.0",
+    "react-markdown": "^4.0.3",
     "react-redux": "^5.1.1",
+    "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.1",
+    "react-tooltip": "^3.9.0",
+    "recharts": "^1.4.1",
     "redux": "^4.0.1",
     "redux-responsive": "^4.3.8",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "seamless-immutable": "^7.1.4",
+    "styled-components": "^4.1.1"
   },
   "browserslist": {
     "development": [
