@@ -3,5 +3,6 @@ import reducer from './reducer';
 
 export default combineReducers({
   metadata: reducer('metadata'),
+  ghPulls: reducer('ghPulls'),
   strings: (state = {}, action) => ((action && action.type === 'strings') ? action.payload : state),
 });

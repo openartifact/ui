@@ -1,3 +1,21 @@
 {
-    "app_name": "OpenArtifact"
+    "app_name": "OpenArtifact",
+    "app_refresh_label": "Refresh",
+    "app_login": "Login",
+    "app_logout": "Logout",
+    "app_report_bug": "Report Bug",
+    "app_language": "Language",
+    "app_description": "Open source Artifact data platform",
+    "app_about": "About",
+    "app_privacy_terms": "Privacy & Terms",
+    "app_api_docs": "API Docs",
+    "app_blog": "Blog",
+    "app_translate": "Translate",
+    "app_donate": "Donate",
+    "app_gravitech": "A Gravitech LLC Site",
+    "app_powered_by": "powered by",
+    "app_twitter": "Follow on Twitter",
+    "app_github": "Source on GitHub",
+    "app_discord": "Chat on Discord",
+    "app_steam_profile": "Steam Profile"
 }

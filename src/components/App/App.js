@@ -5,6 +5,7 @@ import set01 from './data/set01.json';
 import Header from '../../odota-web/src/components/Header';
 import Footer from '../../odota-web/src/components/Footer';
 import FourOhFour from '../../odota-web/src/components/FourOhFour';
+import GlobalStyle from '../../odota-web/src/components/App/GlobalStyle';
 import { Link, Switch, Route } from 'react-router-dom';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
@@ -187,6 +188,7 @@ class App extends Component {
 
     return (
       <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme, muiTheme)}>
+        <GlobalStyle />
         <StyledDiv {...this.props}>
           <Helmet
             defaultTitle={strings.title_default}
@@ -194,6 +196,7 @@ class App extends Component {
           />
           <Header 
             location={location}
+            disableSearch
             navbarPages={[
             <Link to="/cards">Cards</Link>,
             <Link to="/deckbuilder">Deckbuilder</Link>,
