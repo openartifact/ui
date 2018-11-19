@@ -17,5 +17,8 @@
     "app_twitter": "Follow on Twitter",
     "app_github": "Source on GitHub",
     "app_discord": "Chat on Discord",
-    "app_steam_profile": "Steam Profile"
+    "app_steam_profile": "Steam Profile",
+
+    "home_login": "Login",
+    "home_login_desc": "through Steam"
 }
